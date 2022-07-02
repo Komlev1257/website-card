@@ -14,7 +14,7 @@ html, body {
   }
 
   header {
-    padding: 60px;
+    padding: 45px;
     text-align: center;
     background: rgb(19, 17, 29);
     color: white;
@@ -29,7 +29,7 @@ html, body {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 32px;
+    font-size: 25px;
     border-radius: 180px;
     font-family: 'Dosis', sans-serif;
   }
@@ -38,16 +38,17 @@ html, body {
     position: absolute;
     z-index: auto;
     cursor: pointer;
-    right: 240px;
-    top: 40px;
+    right: 150px;
+    top: 30px;
 }
   
 .button2 {
     position: absolute;
     z-index: auto;
     cursor: pointer;
-    right: 400px;
-    top: 40px;
+    right: 280px;
+    top: 30px;
+
 }
   
 
@@ -57,17 +58,17 @@ html, body {
 
 
 .btn {
-    background-color: rgb(19, 17, 29);
-    border: none; 
-    color: white;
-    padding: 12px 16px; 
-    font-size: 45px; 
-    cursor: pointer; 
-    position: absolute;
-    z-index: auto;
-    left: 13%;
-    top: 35px;
-  }
+  background-color: rgb(19, 17, 29);
+  border: none; 
+  color: white;
+  padding: 12px 16px; 
+  font-size: 35px; 
+  cursor: pointer; 
+  position: absolute;
+  z-index: auto;
+  left: 13%;
+  top: 25px;
+}
   
   
   .btn:hover {
@@ -79,9 +80,9 @@ html, body {
   footer {
     position: absolute;
     left: 13%;
-    top: 865px;
+    top: 650px;
     color: white;
-    font-size: 25px;
+    font-size: 19px;
     font-family: 'Dosis', sans-serif;
     overflow: hidden;
     z-index: 0;
@@ -89,19 +90,19 @@ html, body {
 
 
 .form {
-  max-width: 550px;
+  max-width: 400px;
   margin: 0px auto;
   color: white;
   padding: 30px 0;
-  margin-top: -40px;
+  margin-top: -43px;
   font-family: 'Dosis', sans-serif;
 }
 
 
 .form_title {
-  font-size: 35px;
+  font-size: 25px;
   font-weight: 700;
-  margin: 0px 0px 20px 0px;
+  margin: 0px 0px 15px 0px;
   align-self: center;
 }
 
@@ -110,21 +111,21 @@ html, body {
 }
 
 .form_label {
-  font-size: 22px;
+  font-size: 17px;
   display: block;
   margin: 0px 0px 10px 0px; 
 }
 
 .form_input {
-  height: 50px;
+  height: 30px;
   padding: 0px 20px;
   border-radius: 5px;
   width: 100%;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 textarea.form_input {
-  min-height: 120px;
+  min-height: 80px;
   resize: vertical;
   padding: 20px;
 }
@@ -135,8 +136,8 @@ textarea.form_input {
 }
 
 .checkbox_label {
-  width: 108%;
-  font-size: 22px;
+  width: 110%;
+  font-size: 17px;
   line-height: 140%;
   display: inline-flex;
   align-items: center;
@@ -173,18 +174,18 @@ textarea.form_input {
 
 
 .form_button {
-  width: 108%;
+  width: 110%;
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 60px;
+  min-height: 45px;
   background-color: purple;
   color: white;
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 700;
   cursor: pointer;
-  border-radius: 20px;
-  margin-top: 25px;
+  border-radius: 15px;
+  margin-top: 20px;
   transition: background-color 0.5s ease 0s;
   position: relative;
 }

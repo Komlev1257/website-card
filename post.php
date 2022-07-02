@@ -27,7 +27,7 @@
 
 
     if (!$mail->send()) {
-        $message = 'Error';
+        $message = 'Error!';
     } else {
         $message = 'Success!';
     }
