@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./contacts.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Contacts</title>
+
+
+</head>
+<body>
+    <header>
+        <button class="btn" onclick="document.location='./index.html'"><i class="fa fa-home"></i></button>
+        <button class="button2" onclick="document.location='./projects.html'">Projects</button>
+    </header>
+
+
+
+    <div class="wrapper">
+        <div class="form">
+            <form action="#" id="form" class="form_body">
+                <h1 class="form_title">Feedback</h1>
+                <div class="form_item _req">
+                    <label for="formName" class="form_label">Name*:</label>
+                    <input id="formName" type="text" name="name" class="form_input _req"/>
+                </div>
+                <div class="form_item _req">
+                    <label for="formEmail" class="form_label">E-mail*:</label>
+                    <input id="formEmail" type="text" name="email" class="form_input _req _email"/>
+                </div>
+                <div class="form_item">
+                    <label for="formSubject" class="form_label">Subject:</label>
+                    <input id="formSubject" type="text" name="Subject" class="form_input"/>
+                </div>
+                <div class="form_item">
+                    <label for="formMessage" class="form_label">Message:</label>
+                    <textarea name="message" id="formMessage" class="form_input"></textarea>
+                </div>
+                <div class="checkbox">
+                    <input id="formAgreement" type="checkbox" name="agreement" class="checkbox_input _req">
+                    <label for="formAgreement" class="checkbox_label"><span>I agree to the processing of personal data provided in the form*</span></label>
+                </div>
+                <button type="submit" class="form_button">Send</button>
+            </form>
+        </div>
+    </div>
+
+
+    <script src="./feedback.js"></script>
+
+    <footer>
+        <p>Made by Komlev Artem</p>
+    </footer>
+
+</body>
+</html>

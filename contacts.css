@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+html, body {
+    background: rgb(19, 17, 29);
+    height: 99%;
+    min-height: 99%;
+  }
+  
+  
+  
+  
+  header, footer {
+  height: auto;
+  }
+
+  header {
+    padding: 60px;
+    text-align: center;
+    background: rgb(19, 17, 29);
+    color: white;
+    font-size: 30px;
+  }
+
+  .button1, .button2 {
+    background-color: rgb(19, 17, 29);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    border-radius: 180px;
+    font-family: 'Dosis', sans-serif;
+  }
+
+.button1 {
+    position: absolute;
+    z-index: auto;
+    cursor: pointer;
+    right: 240px;
+    top: 40px;
+}
+  
+.button2 {
+    position: absolute;
+    z-index: auto;
+    cursor: pointer;
+    right: 400px;
+    top: 40px;
+}
+  
+
+  .button1:hover, .button2:hover {
+    color: grey;
+}
+
+
+.btn {
+    background-color: rgb(19, 17, 29);
+    border: none; 
+    color: white;
+    padding: 12px 16px; 
+    font-size: 45px; 
+    cursor: pointer; 
+    position: absolute;
+    z-index: auto;
+    left: 13%;
+    top: 35px;
+  }
+  
+  
+  .btn:hover {
+    
+    color:grey
+  }
+  
+  
+  footer {
+    position: absolute;
+    left: 13%;
+    top: 865px;
+    color: white;
+    font-size: 25px;
+    font-family: 'Dosis', sans-serif;
+    overflow: hidden;
+    z-index: 0;
+  }
+
+
+.form {
+  max-width: 550px;
+  margin: 0px auto;
+  color: white;
+  padding: 30px 0;
+  margin-top: -40px;
+  font-family: 'Dosis', sans-serif;
+}
+
+
+.form_title {
+  font-size: 35px;
+  font-weight: 700;
+  margin: 0px 0px 20px 0px;
+  align-self: center;
+}
+
+.form_item {
+  margin: 0px 0px 20px 0px;
+}
+
+.form_label {
+  font-size: 22px;
+  display: block;
+  margin: 0px 0px 10px 0px; 
+}
+
+.form_input {
+  height: 50px;
+  padding: 0px 20px;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 20px;
+}
+
+textarea.form_input {
+  min-height: 120px;
+  resize: vertical;
+  padding: 20px;
+}
+
+
+.checkbox_input {
+  display: none;
+}
+
+.checkbox_label {
+  width: 108%;
+  font-size: 22px;
+  line-height: 140%;
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.checkbox_label::before {
+  content: "";
+  align-self: flex-start;
+  flex: 0 0 24px;
+  height: 24px;
+  background-color: white;
+  border-radius: 4px;
+  margin: 0px 10px 0px 0px;
+}
+
+.checkbox_label::after {
+  transition: transform 0.5s ease 0s;
+  content: "";
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  background-color: purple;
+  border-radius: 4px;
+  transform: scale(0);
+}
+
+.checkbox_input:checked + .checkbox_label::after {
+  transform: scale(1);
+}
+
+
+.form_button {
+  width: 108%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60px;
+  background-color: purple;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 20px;
+  margin-top: 25px;
+  transition: background-color 0.5s ease 0s;
+  position: relative;
+}
+
+.form_button:hover {
+  background-color: rgb(94, 8, 77);
+}
+
+.form_button:active {
+  top: 3px;
+}
+
+
+.form_input._error {
+  box-shadow: 5px 5px 5px red;
+}
+
+.checkbox._error .checkbox_label::before {
+  box-shadow: 3px 3px 3px red;
+  border: 20px;
+  border-color: red;
+}
