@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
 
 
-html, body {
+html {
   background: rgb(19, 17, 29);
-  height: 99%;
-  min-height: 99%;
+  height: 100%;
+  min-height: 100%;
 }
+
+body {
+  height: auto;
+}
+
 
 
 
@@ -109,14 +114,13 @@ header {
 
 
 
-
-
 .Me {
   
   height: 340px;
-  position: absolute;
+  position: sticky;
   left: 1020px;
-  top: 170px;
+  margin-left: 870px;
+  margin-top: 70px;
 }
 
 
@@ -143,7 +147,7 @@ header {
 footer {
   position: absolute;
   left: 13%;
-  top: 650px;
+  margin-top: 12px;
   color: white;
   font-size: 19px;
   font-family: 'Dosis', sans-serif;
@@ -155,13 +159,13 @@ footer {
 
 
 .social-icons {
-  position: absolute;
+  position: sticky;
   display: flex;
   justify-content: center;
   list-style: none;
-  margin-top: 30rem;
-  margin-bottom: 7rem;
-  padding-left: 1087px;
+  margin-left: 800px;
+  margin-top: 70px;
+  
 }
 .social-icons>li {
   margin-left: 0.60rem;

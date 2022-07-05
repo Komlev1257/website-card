@@ -2,7 +2,7 @@
 
 html, body {
         position: relative;
-        height: 100%;
+        height: 99%;
       }
 
       body {
@@ -89,19 +89,19 @@ html, body {
           footer {
             position: absolute;
             left: 13%;
-            top: 650px;
+            
             color: white;
             font-size: 19px;
             font-family: 'Dosis', sans-serif;
-            overflow: hidden;
             z-index: 0;
           }
 
 
          .siz {
+            position: absolute;
             height: 25vw;
-            margin-top: 3%;
-            margin-left: -37.5%;
+            top: 20%;
+            left: 13%;
          }
          .Title1 {
             font-size: 2vw;
@@ -124,10 +124,11 @@ html, body {
 
 
          .automobis {
+          position: absolute;
           height: 25vw;
           width: 40vw;
-          margin-top: 3%;
-          margin-left: -37.5%;
+          top: 20%;
+          left: 10%;
           }
         .Title2 {
           font-size: 2vw;
@@ -151,9 +152,9 @@ html, body {
 
           .bot {
             height: 27vw;
-            
-            margin-top: 3%;
-            margin-left: -37.5%;
+            position: absolute;
+            top: 19%;
+            left: 14%;
             }
           .Title3 {
             font-size: 2vw;

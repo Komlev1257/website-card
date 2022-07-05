@@ -48,6 +48,7 @@ html, body {
     cursor: pointer;
     right: 280px;
     top: 30px;
+    
 
 }
   
@@ -80,7 +81,7 @@ html, body {
   footer {
     position: absolute;
     left: 13%;
-    top: 650px;
+    margin-top: -39px;
     color: white;
     font-size: 19px;
     font-family: 'Dosis', sans-serif;
