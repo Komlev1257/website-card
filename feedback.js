@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
       if (response.ok) {
         let result = await response.json();
         alert(result.message);
-        form.requestFullscreen();
+        form.reset();
       } else {
         alert("Error!")
       }
